@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalButton {
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease background-color;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}

@@ -1,0 +1,23 @@
+.congartsTitle {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.commonWrapper  {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filtersContainer {
+  display: flex;
+  overflow-y: auto;
+  gap: 10px;
+  align-items: center;
+}

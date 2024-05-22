@@ -1,0 +1,36 @@
+.wrapper {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeIcon {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 24px;
+  width: 24px;
+  padding: 4px;
+  transition: 0.3s ease background-color;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: rgba(211, 211, 211, 0.5);
+  }
+}
+
+.container {
+  z-index: 5;
+  padding: 50px 20px 20px;
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+}

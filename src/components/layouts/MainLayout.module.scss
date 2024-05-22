@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  a, input, form, button {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.header {
+  box-shadow: 0px 10px 10px -8px rgba(0,0,0,0.43);
+}
+
+.main {
+  padding: 30px 20px 10px;
+  max-width: 1200px;
+}
